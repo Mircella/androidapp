@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300sp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/clr_science">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/present_book_these_books"
+        android:padding="10sp"
+        android:textSize="18sp"
+        android:textColor="@color/colorBackground"
+        android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/present_book_title_book"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterNameBook"
+        android:hint="@string/present_book_title_book_10X_Rule"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/present_book_author"
+        android:layout_marginTop="5sp"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/enterNameAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/present_book_grant_cardone" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/present_book_seve"
+        android:onClick="savePresentBook"
+        android:id="@+id/saveGoal"
+        android:layout_marginTop="5sp"
+        android:background="@color/clr_science"
+        android:textColor="@color/colorBackground"
+        android:textSize="18sp"/>
+
+</LinearLayout>
